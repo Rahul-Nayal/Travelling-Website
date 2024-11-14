@@ -1,0 +1,78 @@
+.dropdown-menu {
+    position: relative; 
+    z-index: 1050; 
+}
+
+
+.carousel-item img{
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+.full-width-image {
+    height: 300px;
+    width: 100%; 
+    object-fit: cover;
+}
+
+.outerCard {
+    width: 500px; 
+    padding: 40px; 
+    background: rgba(255, 255, 255, 0.8); 
+    border-radius: 8px; 
+    margin: 30px;
+}
+.main-container{
+    background-size: cover; 
+    background-position: center; 
+    height: 100%; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.loginBtn{
+    width: 300px;
+    border-radius: 8px;
+    margin-left: 50px;
+}
+.image-container {
+    overflow: hidden; 
+    border-radius: 8px;  
+}
+
+.image-container img {
+    transition: transform 0.3s ease;  
+}
+
+.image-container img:hover {
+    transform: scale(1.1);  
+}
+
+.card-body {
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+.card {
+    margin: 10px;
+    border: none; 
+}
+.service_card{
+    transition: 1s linear;
+}
+.service_card:hover{
+    transform:scale(1.1);
+}
+
+
+footer {
+    border-top: 2px solid #444; 
+}
+
+footer .list-unstyled li {
+    margin-bottom: 5px; 
+}
+
+
